@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fbe6e5;
+}
+
+
+.barra_Menu {
+    background-color: #ed2323;
+}
+
+.safifurra{
+    width: 50px;
+    border-radius: 25px;
+    border: 2px solid #fbe6e5;
+}
