@@ -1,0 +1,13 @@
+main {
+    background-color: $color-body;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+     "card"
+     ;
+     div.col.card {
+        grid-area: card;
+     }
+}

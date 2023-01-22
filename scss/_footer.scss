@@ -1,0 +1,41 @@
+footer {
+    background-color: $color-footer;
+    height: fit-content;
+    color: $color-body;    
+    div.subscribirse {
+        justify-items: center;
+        img.figaro__corona {
+            width: 100px;
+            
+        }
+        padding: 5px;
+        background-color: $color-subs;
+        p {
+            padding: 10px;
+            
+        }
+        button.btn {
+            align-items: center;
+            justify-items: center;
+        }
+    }
+    div.footer__bottom {
+        justify-items: left;
+        text-align: left;
+        ul {            
+            padding: 0;
+            list-style: none;
+            li.copyright {
+                font-weight:100;
+                display: flex;
+            }
+        }
+
+    }
+    img.safifurra {
+        display: inline-block;
+        width: 50px;
+        border-radius: 25px;
+        border: 3px solid $color-body;
+    }
+}
