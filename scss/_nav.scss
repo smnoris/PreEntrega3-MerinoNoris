@@ -1,5 +1,16 @@
-nav.reel {
+nav.reel { 
     display: flex;
-    justify-items: center;
     align-items: center;
+    justify-content: center;
+    div{
+        div{
+            div{
+                img.d-block{
+                    width: max-content;
+                    height: 250px;
+                    margin-right: 0;                    
+                }
+            }
+        }
+    }
 }

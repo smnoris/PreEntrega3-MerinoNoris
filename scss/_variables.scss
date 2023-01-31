@@ -4,3 +4,12 @@ $color-body: #fbe6e5;
 $color-cards: #ea8533;
 $color-nav: #f99d52;
 $color-subs: #51385c;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

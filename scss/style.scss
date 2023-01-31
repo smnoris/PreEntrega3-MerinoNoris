@@ -1,9 +1,10 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
 @import "./variables";
 @import "./header";
 @import "./main";
 @import "./nav";
 @import "./footer";
-
-*{
-    font-family: 'Roboto', sans-serif;;
-}
