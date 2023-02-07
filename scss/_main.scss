@@ -1,14 +1,39 @@
 main {
-    background-color: $color-body;
-    height: max-content;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-     "card"
-     ;
-     div.col.card {
-        grid-area: card;
-     
-     }
+   background-color: $color-body;
+   height: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   div.galeria__breadcrumbs{
+   
+   }
+   div.container.text-center {
+      div.row.row-cols-1 {
+         align-items: center;
+         justify-content: center;
+         gap: 50px;
+         div.col {
+            display: flex;
+            background-color: $color-cards;
+            border-radius: 100px;
+            height: 300px;
+            width: 300px;
+            align-items: center;
+            justify-content: center; 
+            text-align: center;
+            div.col.card1 {
+               background-image: url(../assets/png/QuipaoNITRUSJPGKitsuneHime.jpg);
+            }
+
+            img{
+               width: 300px;
+               height: 300px;
+               border-radius: 100px;
+                  
+            }           
+         }
+      }
+   }
 }

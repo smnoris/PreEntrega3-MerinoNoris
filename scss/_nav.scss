@@ -1,7 +1,8 @@
-nav.reel { 
+nav.reel {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     div{
         div{
             div{
@@ -12,5 +13,11 @@ nav.reel {
                 }
             }
         }
+    }
+
+    button.carousel-control-prev {
+        
+        display: block;
+        
     }
 }
